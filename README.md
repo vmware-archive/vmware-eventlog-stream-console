@@ -17,5 +17,5 @@ as an open-source patch. For more detailed information, refer to [CONTRIBUTING.m
 
 ## License
 
-eventlog-stream-console is available under the BSD-2 license.
+eventlog-stream-console is available under the [BSD-2 license](https://github.com/vmware/eventlog-stream-console/blob/master/LICENSE.txt).
 
