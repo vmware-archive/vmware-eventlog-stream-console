@@ -1,4 +1,4 @@
-# eventlog-stream-console
+# vmware-eventlog-stream-console
 A tool, in the form of a NuGet package, that allows streaming of Microsoft EventLog messages to the console.
 
 # Overview
