@@ -31,7 +31,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CloudFoundry.Shims
+namespace VMware.Shims
 {
     public class EventLogShim : ShimsBase<EventLogShim>
     {

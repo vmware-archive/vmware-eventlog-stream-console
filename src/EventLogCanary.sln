@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullFrameworkWebApp", "FullFrameworkWebApp\FullFrameworkWebApp.csproj", "{3DFEA222-F042-40ED-9F71-B4670DC14D55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFoundry.Shims", "CloudFoundry.Shims\CloudFoundry.Shims.csproj", "{926A2F11-85B5-4DD9-A745-B6F377B73039}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMware.Shims", "VMware.Shims\VMware.Shims.csproj", "{926A2F11-85B5-4DD9-A745-B6F377B73039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFoundry.Shims.Tests", "CloudFoundry.Shims.Tests\CloudFoundry.Shims.Tests.csproj", "{49622E44-5A25-4812-A751-9B0BC6C5D28B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMware.Shims.Tests", "VMware.Shims.Tests\VMware.Shims.Tests.csproj", "{49622E44-5A25-4812-A751-9B0BC6C5D28B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D085C261-E680-4A04-9CFE-AAD16F9DF4AC}"
 	ProjectSection(SolutionItems) = preProject

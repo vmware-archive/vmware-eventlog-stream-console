@@ -29,7 +29,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CloudFoundry.Shims
+namespace VMware.Shims
 {
     public abstract class ShimsBase<TShim> : IShim
         where TShim : class, IShim

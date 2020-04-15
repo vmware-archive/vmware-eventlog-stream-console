@@ -8,8 +8,8 @@
     <ProjectGuid>{49622E44-5A25-4812-A751-9B0BC6C5D28B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CloudFoundry.Shims.Tests</RootNamespace>
-    <AssemblyName>CloudFoundry.Shims.Tests</AssemblyName>
+    <RootNamespace>VMware.Shims.Tests</RootNamespace>
+    <AssemblyName>VMware.Shims.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CloudFoundry.Shims\CloudFoundry.Shims.csproj">
+    <ProjectReference Include="..\VMware.Shims\VMware.Shims.csproj">
       <Project>{926a2f11-85b5-4dd9-a745-b6f377b73039}</Project>
-      <Name>CloudFoundry.Shims</Name>
+      <Name>VMware.Shims</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

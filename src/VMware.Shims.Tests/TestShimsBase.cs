@@ -29,7 +29,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CloudFoundry.Shims.Tests
+namespace VMware.Shims.Tests
 {
     [TestClass]
     public class TestShimsBase

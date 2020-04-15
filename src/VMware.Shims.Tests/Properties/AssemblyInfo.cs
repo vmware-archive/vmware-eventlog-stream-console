@@ -1,4 +1,4 @@
-﻿/*
+/*
 Copyright (c) 2019-2020 VMware, Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
@@ -25,39 +25,20 @@ POSSIBILITY OF SUCH DAMAGE.
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Web;
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("CloudFoundry.Shims")]
+[assembly: AssemblyTitle("VMware.Shims.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CloudFoundry.Shims")]
+[assembly: AssemblyProduct("VMware.Shims.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("926a2f11-85b5-4dd9-a745-b6f377b73039")]
+[assembly: Guid("49622e44-5a25-4812-a751-9b0bc6c5d28b")]
 
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers
-// by using the '*' as shown below:
-[assembly: AssemblyVersion("1.0.*")]
-//[assembly: AssemblyFileVersion("1.0.0.0")]
-
-// Web-Apps will have Shims installed automatically
-[assembly: PreApplicationStartMethod(typeof(CloudFoundry.Shims.Shims), "Install")]
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

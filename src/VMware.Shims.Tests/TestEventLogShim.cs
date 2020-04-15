@@ -27,7 +27,7 @@ using System.IO;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CloudFoundry.Shims.Tests
+namespace VMware.Shims.Tests
 {
     [TestClass]
     public class TestEventLogShim
