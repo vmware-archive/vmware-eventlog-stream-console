@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VMware.EventLog.Stream.Console</id>
+    <version>1.0.0</version>
+    <authors>VMware Tanzu</authors>
+    <owners>VMware Tanzu</owners>
+    <licenseUrl>https://licenses.nuget.org/BSD-2-Clause</licenseUrl>
+    <projectUrl>https://github.com/vmware/vmware-eventlog-stream-console</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Add package description</description>
+    <!-- <releaseNotes>Summary of changes made in this release of the package.</releaseNotes> -->
+    <copyright>Copyright 2019</copyright>
+    <tags></tags>
+    <dependencies>
+      <dependency id="Lib.Harmony" version="1.2.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="VMware.Shims\bin\Release\VMware.Shims.dll" target="lib\net4\VMware.Shims.dll" />
+  </files>
+</package>
