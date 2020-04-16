@@ -10,7 +10,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Many .NET legacy apps make use of the Windows Event Log for persisting errors and warnings raised at runtime.  There are different options for externalizing these logs on the cloud. One option is to refactor all calls to ILogger.Log or Console.WriteLine while another option is to use Microsoft's log montior (https://github.com/microsoft/windows-container-tools/tree/master/LogMonitor).
+      
       This NuGet package offers an additional option which is code-free and minimally invasive. By installing this package to an ASP Framework 4.x app, all calls to the System.Diagnostics.EventLog.WriteEvent and System.Diagnostics.EventLog.WriteEntry static methods will instead write to console. This behavior will extend only to your app domain.
+      
       The VMware.EventLog.Stream.Console NuGet package leverages the Lib.Harmony NuGet package.
     </description>
     <copyright>Copyright 2020</copyright>
