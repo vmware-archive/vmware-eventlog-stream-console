@@ -1,5 +1,5 @@
 # vmware-eventlog-stream-console
-A tool, in the form of a NuGet package, that allows streaming of Microsoft EventLog messages to the console.
+A tool, in the form of a NuGet package, that allows streaming of Microsoft EventLog and application log messages to the console.
 
 # Overview
 Many .NET legacy apps make use of the Windows Event Log for persisting errors and warnings raised at runtime.  Until recently, the common wisdom for running code that references the Event Log on Cloud Foundry has been, "don't do it".  In other words, refactor all of your calls to EventLog to something more cloudy, like ILogger.Log, or Console.WriteLine.  Now we have a third option:  just use a shim.
